@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/123444.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    color: tomato;
+}
+
+.logo{
+    width: 40px;
+    cursor: pointer;
+}
+
+.my-logo{
+    width: 30px;
+    cursor: pointer;
+}
+
+nav{
+   flex: 1;
+   padding-right: 20px;
+   color:tomato;
+}
+
+nav ul li{
+    display: inline-block;
+    float: right;
+    list-style: armenian;
+    margin: 0px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: red;
+}
+
+.content h1{
+    font-size: 100px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+
+.content p{
+    font-size: 20x;
+    font-weight: 100;
+    color: #6a7199;
+}
+
+.content{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.content .btn{
+   display: inline-block;
+    background: linear-gradient(45deg, #87adfe,#ff77cd);
+    border-radius: 30px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0,15);
+}
+
+.arrow-icons{
+    margin-top: 40px;
+    display: inline;
+    image src:(image/1234567);
+}
+
+.arrow-icons img{
+    width: 20px;
+    margin-right: 25px;
+}
+
+
+.feature-img{
+     height: 60%;
+     position: absolute;
+     bottom: 20%;
+     right: 160px;
+     border-radius: 50%;
+}
+
+.social-links{
+    transform-origin: 20%;
+    position: absolute;
+    right: 100px;
+    bottom: 180px;
+    
+}
+
+.social-links a{
+    text-decoration: none;
+    color: yellow;
+    padding-right: 30px;
+    font-size: 14px;
+    border-radius: 30%;
+}
+
+.social-links .btn{
+    display: inline-block;
+    background: linear-gradient(45deg, #1ba911,#274869);
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0,15);
+}
+
+.feature-images{
+    height: 40%;
+    position: absolute;
+    bottom: 5%;
+    left: 160px;
+  
+}
+
+.border{
+    background-color: #274869;
+    border-radius: 3%;
+}
+
+.border{
+    float: right;
+    background-color: goldenrod;
+    width: 60%;
+    padding: 20 3%;
+    box-sizing: border-box;
+    margin; 50 50%;
+    
+
+}
